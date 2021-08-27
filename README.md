@@ -8,6 +8,6 @@ This Python script can be used to build an automated switching feature to rerout
 
 1. The environment used to run the script requires the **python3** package to be installed
 2. Download the two files to a directory on the server
-3. edit the **config.py** file to include the Cloud Access API key
+3. edit the **config.yaml** file to include the Cloud Access API key along with the VPC to be processed and the table pairs.
 4. Ensure the **switch-tables.py** file is executable (Linux mode 755)
-5. Run the command **./switch-tables.py {vpc-name} {primary-table-name} {backup-table-name}**
+5. Run the command **./switch-tables.py**

@@ -1,0 +1,13 @@
+---
+api_key:  '*****'
+base_url: 'https://eu-gb.iaas.cloud.ibm.com/v1'
+clouds: [
+  {
+    name: 'alc-security-test',
+    managed-tables: [
+      { primary_route_table: 'alc-appl-routes',
+        backup_route_table:  'alc-secondary-table'
+      }
+    ]
+  }
+]
